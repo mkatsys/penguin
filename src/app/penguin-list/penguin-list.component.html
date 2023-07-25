@@ -1,0 +1,8 @@
+
+
+<div class="grid">
+<mat-card *ngFor="let penguin of penguins" routerLink="/{{ penguin.no }}">
+    <img src="/assets/imges/{{penguin.img}}.png" alt="画像">
+    <p>{{penguin.name}}</p>
+</mat-card>
+</div>
